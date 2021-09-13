@@ -1,0 +1,140 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.head{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    top: 0;
+    margin-left: 5%;
+    font-weight: 600;
+    position: sticky;
+    background-color: white;
+    height: 10vh;
+}
+.head .stige{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 0vh;
+    color: #000;
+    text-decoration: none;
+}
+.head .links{
+    text-align: center;
+    margin-top: 5vh;
+    margin-right: 10%;
+    
+    
+}
+.head .tracks{
+
+    color: white;
+    background-color: #48bf84;
+    border-color: #48bf84;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.head .login{
+    color: white;
+    background-color:black ;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.body{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.body .heading{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.body .talks{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.body .register{
+    margin-top: 3rem !important;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.registerfree{
+    background-color: #48bf84;
+    border-color: #48bf84;
+    text-decoration: none;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+    color: white;
+}
+.reg-free p{
+    color: #48bf84;
+}
+.register .exp{
+    color: white;
+    background-color:black ;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.5rem 5rem;
+
+}
+
+.speed-text{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+    font-weight: 500;
+}
+.tabs{
+	background: var(--dark-color);
+	padding-top: 1rem;
+	margin-bottom: 0;
+	margin: 10rem 0 0;
+	border-bottom: 0px solid #eeeeee;
+	min-height: 80px;
+}
+.tabs .container{
+	padding-top: 0.1rem;
+	align-items: center;
+	text-align: center;
+}
+.tabs p{
+	font-size: 1.2rem;
+	padding-top: 0.5rem;
+	color: #000;
+}
+.tabs .container >div{
+	padding: 1rem 0;
+}
+
+
+
+/* tab conten*/
+.tab-content{
+	padding: 5rem 0;
+	background: #000;
+	color: #fff;
+}
+/*hide content initialy*/
+#tab-1-content,
+{
+	display: none;
+}
+#tab-1-content .tab-1-content-inner{
+	
+	align-items: center;
+	justify-content: center;
+}
+

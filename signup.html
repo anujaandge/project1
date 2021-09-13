@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta http-equiv="x-UA-Compatible" content="ie=edge">
+         <title>Dashboard/signup</title>
+         <link rel="stylesheet" href="style1.css">
+
+    </head>
+	<body>
+    <div class="upper">
+        <div class="logo">
+            <a href="index1.html">
+                <img src="img/Stige-black.png" class="img-logo"/>
+            </a>
+        </div>
+        <div class="login-div">
+            <form class="login">
+                <h1>Sign up</h1>
+                <div class="input-text">
+                    <input type="text" id="inputname" name="email" placeholder="First name" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)"/>
+                    <div class="warning-input" id="warningEmail">
+                        First name
+                    </div>
+                </div>
+                <div class="input-text">
+                    <input type="text" id="inputEmail" name="email" placeholder="Email or phone number" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)"/>
+                    <div class="warning-input" id="warningEmail">
+                        Please enter a valid email or phone number.
+                    </div>
+                </div>
+                
+                <div class="input-text">
+                    <input type="password" id="inputPassword" name="password" placeholder="Password" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)"/>
+                    <div class="warning-input" id="warningPassword">
+                        Your password must contain between 4 and 60 characters.
+                    </div>
+                </div>
+                
+                <div>
+                    <button class="signin-button">sign up</button>
+                </div>
+                <div class="remember-flex">
+                    <div>
+                        <input type="checkbox">
+                        <label class="color_text">Remember me</label>
+                    </div>
+                    <div class="help">
+                        <a class="color_text" href="#">Need help?</a>
+                    </div>
+                </div>
+                
+                <div class="new-members">
+                    already have account?<a href="Login.html" class="signup-link">Login</a>.
+                </div>
+                <div class="protection color_link help">
+                    This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+            
+        </div>
+    </div>
+    <section class="tabs">
+			<div class="container">
+				<div id="tab-1" class="tab-item tab-border">
+					<i class="fas fa-door-open fa-3x"></i>
+					<p class="hide-sm">Copyright © 2021 Stige</p>
+				</div>
+         </section> 
+    <script src="index1.js"></script>
+</body>
+</html>
+       
